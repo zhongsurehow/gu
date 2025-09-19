@@ -1,0 +1,127 @@
+{
+  "game_balance": {
+    "player_limits": {
+      "min_players": 1,
+      "max_players": 8,
+      "default_players": 2
+    },
+    "initial_resources": {
+      "qi": 8,
+      "dao_xing": 1,
+      "cheng_yi": 2,
+      "initial_hand_size": 4,
+      "influence_markers": 15
+    },
+    "resource_limits": {
+      "max_qi": 25,
+      "max_dao_xing": 20,
+      "max_cheng_yi": 15,
+      "max_hand_size": 7
+    },
+    "action_costs": {
+      "meditate_qi_cost": 2,
+      "study_dao_xing_cost": 1,
+      "transform_cheng_yi_cost": 3
+    },
+    "phase_bonuses": {
+      "base_qi_gain": 3,
+      "heaven_position_bonus": 2,
+      "earth_position_bonus": 1,
+      "study_cards_draw": 2,
+      "enhanced_study_cards_draw": 3
+    },
+    "yin_yang_balance": {
+      "high_balance_threshold": 0.8,
+      "medium_balance_threshold": 0.6,
+      "low_balance_threshold": 0.4,
+      "high_balance_bonus": 3,
+      "medium_balance_bonus": 2,
+      "low_balance_bonus": 1,
+      "extreme_transform_threshold": 10,
+      "extreme_transform_probability": 0.8,
+      "normal_transform_probability": 0.1,
+      "transform_yin_loss": 3,
+      "transform_yang_gain": 2
+    },
+    "divination_system": {
+      "low_dao_xing_threshold": 3,
+      "medium_dao_xing_threshold": 7,
+      "base_success_rate": 0.5,
+      "dao_xing_bonus_per_point": 0.03,
+      "max_success_rate": 0.9,
+      "action_modifiers": {
+        "meditate": 0.1,
+        "study": 0.05,
+        "transform": -0.1,
+        "wuxing": 0.0
+      }
+    },
+    "victory_conditions": {
+      "traditional_dao_xing": 12,
+      "taiji_master_balance": 0.8,
+      "taiji_master_dao_xing": 8,
+      "wuxing_mastery_threshold": 3,
+      "divination_master_count": 15,
+      "divination_master_accuracy": 0.8,
+      "wisdom_master_count": 10,
+      "transformation_master_count": 20,
+      "transformation_balance": 0.6,
+      "position_master_time": 5,
+      "gua_mastery_count": 8,
+      "harmony_balance": 0.7,
+      "harmony_wuxing": 3,
+      "resource_master_qi": 20,
+      "resource_master_cheng_yi": 10,
+      "resource_master_dao_xing": 10
+    },
+    "card_effects": {
+      "synergy_bonus_threshold": 5,
+      "combo_bonus_base": 1,
+      "balance_bonus_threshold": 1,
+      "wuxing_mastery_threshold": 3,
+      "special_qi_bonus": 3
+    },
+    "tutorial_rewards": {
+      "beginner_score_bonus": 10,
+      "intermediate_score_bonus": 20,
+      "advanced_score_bonus": 30,
+      "master_score_bonus": 50,
+      "completion_thresholds": {
+        "excellent": 90,
+        "good": 70,
+        "average": 50,
+        "basic": 25
+      }
+    },
+    "game_flow": {
+      "max_turns": 50,
+      "victory_zone_control": 5,
+      "ap_per_turn": 2,
+      "hand_limit_bonus": 2,
+      "extra_influence": 1,
+      "qi_discount": 1,
+      "extra_dao_xing_on_task": 1
+    },
+    "balance_mechanics": {
+      "dynamic_difficulty": true,
+      "resource_recovery_rate": 0.3,
+      "balance_reward_multiplier": 1.2,
+      "strategy_diversity_bonus": 0.1,
+      "late_game_acceleration": true,
+      "late_game_threshold": 0.7
+    }
+  },
+  "ui_settings": {
+    "separator_length": 50,
+    "progress_display_precision": 1,
+    "menu_options_start": 1
+  },
+  "ai_settings": {
+    "bot_decision_delay": 1000,
+    "difficulty_modifiers": {
+      "easy": 0.7,
+      "normal": 1.0,
+      "hard": 1.3
+    }
+  }
+}

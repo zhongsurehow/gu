@@ -1,0 +1,270 @@
+{
+  "test_results": {
+    "availability": {
+      "player_1": {
+        "total_available": 25,
+        "by_category": {
+          "胜战计": 1,
+          "敌战计": 4,
+          "攻战计": 6,
+          "混战计": 3,
+          "并战计": 6,
+          "败战计": 5
+        },
+        "strategies": [
+          "借刀杀人",
+          "暗度陈仓",
+          "笑里藏刀",
+          "李代桃僵",
+          "顺手牵羊",
+          "打草惊蛇",
+          "借尸还魂",
+          "调虎离山",
+          "欲擒故纵",
+          "抛砖引玉",
+          "擒贼擒王",
+          "釜底抽薪",
+          "关门捉贼",
+          "假途伐虢",
+          "偷梁换柱",
+          "指桑骂槐",
+          "假痴不癫",
+          "上屋抽梯",
+          "树上开花",
+          "反客为主",
+          "美人计",
+          "空城计",
+          "反间计",
+          "苦肉计",
+          "连环计"
+        ]
+      },
+      "player_2": {
+        "total_available": 25,
+        "by_category": {
+          "胜战计": 1,
+          "敌战计": 4,
+          "攻战计": 6,
+          "混战计": 3,
+          "并战计": 6,
+          "败战计": 5
+        },
+        "strategies": [
+          "借刀杀人",
+          "暗度陈仓",
+          "笑里藏刀",
+          "李代桃僵",
+          "顺手牵羊",
+          "打草惊蛇",
+          "借尸还魂",
+          "调虎离山",
+          "欲擒故纵",
+          "抛砖引玉",
+          "擒贼擒王",
+          "釜底抽薪",
+          "关门捉贼",
+          "假途伐虢",
+          "偷梁换柱",
+          "指桑骂槐",
+          "假痴不癫",
+          "上屋抽梯",
+          "树上开花",
+          "反客为主",
+          "美人计",
+          "空城计",
+          "反间计",
+          "苦肉计",
+          "连环计"
+        ]
+      },
+      "player_3": {
+        "total_available": 25,
+        "by_category": {
+          "胜战计": 1,
+          "敌战计": 4,
+          "攻战计": 6,
+          "混战计": 3,
+          "并战计": 6,
+          "败战计": 5
+        },
+        "strategies": [
+          "借刀杀人",
+          "暗度陈仓",
+          "笑里藏刀",
+          "李代桃僵",
+          "顺手牵羊",
+          "打草惊蛇",
+          "借尸还魂",
+          "调虎离山",
+          "欲擒故纵",
+          "抛砖引玉",
+          "擒贼擒王",
+          "釜底抽薪",
+          "关门捉贼",
+          "假途伐虢",
+          "偷梁换柱",
+          "指桑骂槐",
+          "假痴不癫",
+          "上屋抽梯",
+          "树上开花",
+          "反客为主",
+          "美人计",
+          "空城计",
+          "反间计",
+          "苦肉计",
+          "连环计"
+        ]
+      }
+    },
+    "timing": {
+      "current_situation": {
+        "type": "opportunity",
+        "stability": 69.99999990584642,
+        "tension": 24.999999655279463,
+        "opportunity": 72.50000012528348
+      },
+      "strategy_timing": {
+        "瞒天过海": {
+          "timing_quality": "POOR",
+          "timing_score": 2,
+          "category": "胜战计"
+        },
+        "趁火打劫": {
+          "timing_quality": "AVERAGE",
+          "timing_score": 3,
+          "category": "胜战计"
+        },
+        "隔岸观火": {
+          "timing_quality": "POOR",
+          "timing_score": 2,
+          "category": "敌战计"
+        },
+        "浑水摸鱼": {
+          "timing_quality": "AVERAGE",
+          "timing_score": 3,
+          "category": "混战计"
+        },
+        "走为上": {
+          "timing_quality": "AVERAGE",
+          "timing_score": 3,
+          "category": "败战计"
+        }
+      }
+    },
+    "execution": {
+      "player_1_指桑骂槐": {
+        "strategy": "指桑骂槐",
+        "category": "并战计",
+        "success": true,
+        "timing_bonus": 1.6666666666666667,
+        "timing_quality": "EXCELLENT",
+        "enhanced_effects": {},
+        "message": ""
+      },
+      "player_2_指桑骂槐": {
+        "strategy": "指桑骂槐",
+        "category": "并战计",
+        "success": true,
+        "timing_bonus": 1.6666666666666667,
+        "timing_quality": "EXCELLENT",
+        "enhanced_effects": {},
+        "message": ""
+      },
+      "player_3_顺手牵羊": {
+        "strategy": "顺手牵羊",
+        "category": "敌战计",
+        "success": true,
+        "timing_bonus": 1.0,
+        "timing_quality": "AVERAGE",
+        "enhanced_effects": {},
+        "message": ""
+      }
+    },
+    "information": {
+      "player_1": {
+        "collect_success": false,
+        "false_info_success": true,
+        "total_information": 0,
+        "reliable_info": 0,
+        "false_info": 0
+      },
+      "player_2": {
+        "collect_success": false,
+        "false_info_success": true,
+        "total_information": 0,
+        "reliable_info": 0,
+        "false_info": 0
+      },
+      "player_3": {
+        "collect_success": false,
+        "false_info_success": true,
+        "total_information": 0,
+        "reliable_info": 0,
+        "false_info": 0
+      }
+    },
+    "foundation": {
+      "player_1": {
+        "attack_success": false,
+        "expand_success": false,
+        "total_foundations": 3,
+        "max_influence": "WEAK",
+        "network_stability": 0.02
+      },
+      "player_2": {
+        "attack_success": false,
+        "expand_success": false,
+        "total_foundations": 0,
+        "max_influence": "NONE",
+        "network_stability": 0.0
+      },
+      "player_3": {
+        "attack_success": true,
+        "expand_success": false,
+        "total_foundations": 0,
+        "max_influence": "NONE",
+        "network_stability": 0.0
+      }
+    },
+    "situation": {
+      "initial": {
+        "type": "opportunity",
+        "stability": 69.99999972974321,
+        "tension": 24.999999493097
+      },
+      "after_conflict": {
+        "type": "stalemate",
+        "stability": 69.99999945785487,
+        "tension": 39.99999925029761
+      },
+      "final": {
+        "type": "stalemate",
+        "stability": 76.66666612452154,
+        "tension": 39.99999925029761
+      },
+      "trend": "DECLINING",
+      "events_triggered": [
+        "军事冲突",
+        "联盟形成"
+      ]
+    }
+  },
+  "balance_analysis": {
+    "strategy_availability": {
+      "average": 25.0,
+      "max": 25,
+      "min": 25,
+      "variance": 0,
+      "balance_score": 1.0
+    },
+    "execution_balance": {
+      "average_success_rate": 1.0,
+      "total_executions": 3,
+      "successful_executions": 3
+    },
+    "timing_balance": {
+      "average_timing_score": 2.6,
+      "timing_variance": 1
+    }
+  }
+}
